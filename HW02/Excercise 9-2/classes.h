@@ -1,3 +1,5 @@
+/*  ---Joseph---   Forgot the header definition guards. These are really important in header files especially when the projects get bigger. (-1) */
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -23,7 +25,7 @@ public:
 	bool getFanOn() { return on; }
 	double getFanRadius() { return radius; }
 	// Mutator Functions
-	void changeFanSpeed(int x) // argument value is speed value
+	void changeFanSpeed(int x) // argument value is speed value               /* ---Joseph--- Nice range restriction */
 	{
 		if (x >= 1 && x <= 3) // Fan speed can only be between 1 and 3
 			speed = x; // changes fan speed
@@ -108,6 +110,7 @@ public:
 	}
 	// Accessor Function
 	int getValue() { return value; }
+	/*  ---Joseph---   Very slick. I like it. */
 	EvenNumber getNext() { return EvenNumber(value + 2); } // returns object by calling constructor with initial value in argument and adding 2.
 	EvenNumber getPrevious() { return EvenNumber(value - 2); }// returns object by calling constructor with initial value in argument and subtracting 2. 
 	
