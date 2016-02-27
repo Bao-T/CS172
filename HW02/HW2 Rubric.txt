@@ -17,22 +17,18 @@
 
 
 
-EX02_01: /15
-		UML----------- 4/5
-		Fan Object---- 5/5
-		Test Program-- 5/5
-EX02_02: /20
-		UML----------- 4/5
-		Object-------- 9/10
-		Test Program-- 5/5
-EX02_03: /15
-		UML----------- 4/5
-		Object-------- 5/5
-		Test Program-- 5/5
-
-
-Total: 46/50
-
+EX02_01:
+		UML=========== -1
+		Fan Object==== 
+		Test Program== 
+EX02_02:
+		UML=========== -1
+		Object======== -1
+		Test Program== 
+EX02_03: 
+		UML=========== -1
+		Object======== 
+		Test Program== 
 */
 
 
